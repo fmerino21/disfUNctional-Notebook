@@ -58,6 +58,7 @@ struct SegmentTree {
         }
     }
 
+	// queries, t[v] guarda la informacion que queremos de los segmentos, sumas, xor, maximos, etc
 	type query(int i) {
 		return query(i, i);
 	}
