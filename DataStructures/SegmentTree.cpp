@@ -58,9 +58,9 @@ struct SegmentTree {
         }
     }
 
-	type query(int i) {
-		return query(i, i);
-	}
+    type query(int i) {
+        return query(i, i);
+    }
     
     type query(int l, int r) {
         return query(1, 0, n - 1, l, r);
